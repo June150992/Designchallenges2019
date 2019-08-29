@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+#grid {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+header {
+  background-color: rgb(250, 168, 135);
+}
+
+main {
+  display: flex;
+  background-color: rgb(183, 230, 173);
+  flex-direction: column;
+  width: 100vw;
+}
+
+footer {
+  background-color: lightblue;
+  width: 100vw;
+}
